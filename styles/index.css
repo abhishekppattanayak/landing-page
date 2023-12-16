@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utiliy classes */
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.grow {
+    flex-grow: 1;
+}
+.self-center {
+    align-self: center;
+}
+.content-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.items-center {
+    align-items: center;
+}
+.px-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.px-144 {
+    padding-left: 144px;
+    padding-right: 144px;
+}
+.bg-dark {
+    background-color: #1f2937;
+}
+.bg-blue {
+    background-color: #3882f6;
+}
+.hero-main, .header-logo {
+    color: #f9faf8;
+}
+.hero-main {
+    font-weight: bolder;
+    font-size: 48px;
+}
+.gap-16 {
+    gap: 16px;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero-secondary, .header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.bg-gray {
+    background-color: #e5e7eb;
+}
+.info-header, .quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+.info-header {
+    font-weight: 800;
+}
+.quote {
+    font-weight: 100;
+    font-style: italic;
+}
+.self-end {
+    align-self: flex-end;
+}
+.info-card {
+    width: 160px;
+    height: 160px;
+    border: #3882f6 5px solid;
+    border-radius: 12px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.p-bottom-24 {
+    padding-bottom: 24px;
+}
+.py-36 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.width-50 {
+    width: 50%;
+}
+.my-72 {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.content-space-between {
+    justify-content: space-between;
+}
+.mx-72 {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.b-12 {
+    border-radius: 12px;
+}
+.c-white {
+    color: white;
+}
+.b-white {
+    border-color: white;
+}
+.bpx-4 {
+    border-width: 4px 4px 4px 4px;
+}
+.b-solid {
+    border-style: solid;
+}
+/* specific Classes */
+body {
+    font-family: Helvetica;
+}
+body > * {
+    padding-left: 288px;
+    padding-right: 288px; 
+}
+ul {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    list-style: none;
+    gap: 12px;
+}
+button {
+    padding:12px;
+    border: none;
+    border-radius: 12px;
+}

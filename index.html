@@ -1,60 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Landing Page</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>Header logo</li>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <p>This website is awesome</p>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
+<body class="flex flex-col">
+    <ul class="flex content-center bg-dark">
+        <li class="grow header-logo">Header Logo</li>
+        <li class="header-link">header link one</li>
+        <li class="header-link">header link two</li>
+        <li class="header-link">header link three</li>
+    </ul>
+    <main class="flex bg-dark py-48">
+        <div class="flex flex-col gap-16 grow width-50">
+            <p class="hero-main">This website is awesome</p>
+            <p class="hero-secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="self-center bg-blue header-link">Sign up</button>
         </div>
-        <div>this is a placeholder for an image</div>
+        <div class="flex grow bg-gray content-center items-center width-50">this is a placeholder for an image</div>
     </main>
-    <section>
-        <div>Some random information.</div>
-        <div>
-            <div>
-                <div></div>
-                <div>this is some subtext under an illustration or image</div>
+    <section class="flex flex-col"> 
+        <div class="py-48 self-center info-header">Some random information.</div>
+        <div class="flex content-center">
+            <div class="flex flex-col items-center px-24">
+                <div class="info-card"></div>
+                <div class="p-bottom-24 px-24 self-center">this is some subtext under an illustration or image</div>
             </div>
-            <div>
-                <div></div>
-                <div>this is some subtext under an illustration or image</div>
+            <div class="flex flex-col items-center px-24">
+                <div class="info-card"></div>
+                <div class="p-bottom-24 px-24 self-center">this is some subtext under an illustration or image</div>
             </div>
-            <div>
-                <div></div>
-                <div>this is some subtext under an illustration or image</div>
+            <div class="flex flex-col items-center px-24">
+                <div class="info-card"></div>
+                <div class="p-bottom-24 px-24 self-center">this is some subtext under an illustration or image</div>
             </div>
-            <div>
-                <div></div>
-                <div>this is some subtext under an illustration or image</div>
+            <div class="flex flex-col items-center px-24">
+                <div class="info-card"></div>
+                <div class="p-bottom-24 px-24 self-center">this is some subtext under an illustration or image</div>
             </div>
         </div>
     </section>
-    <section>
-        <div>This is inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div>-Thor, God of Thunder</div>
+    <section class="py-48 flex flex-col bg-gray content-center">
+        <p class="quote">This is inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <p class="self-end font-24">-Thor, God of Thunder</p>
     </section>
-    <section>
-        <div>
-            <div>Call to action! It's time!</div>
+    <section class="flex mx-72 width-50 c-white self-center b-12 bg-blue my-72 content-space-between">
+        <div class="flex flex-col py-36">
+            <div class="header-logo">Call to action! It's time!</div>
             <div>Sign up for our product by clicking that button right over there!</div>
         </div>
-        <button>Sign up</button>
+        <button class="c-white b-solid self-center bpx-4 b-12 b-white bg-blue">Sign up</button>
     </section>
-    <footer>Copyright &copy; The Odin Project 2021</footer>
-
+    <footer class="text-center header-link bg-dark py-36">Copyright &copy; The Odin Project 2021</footer>
 </body>
 </html>
